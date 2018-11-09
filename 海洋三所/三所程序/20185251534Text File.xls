@@ -1,0 +1,8 @@
+	Module	报警器开	1-ON|0-OFF	1		0	
+1	Module	Read All sensor Values	Gas flow rate(R|S|N)	1		0	
+2	Module	报警器关	1-ON|0-OFF	1		0	
+3	VICI Valve	Set Valve Position	Port（1~10）	3	Type	0	
+4	VICI Valve	Set Valve Position	Port（1~10）	7	Type	0	
+5	VICI Valve	Set Valve Position	Port（1~10）	5	Type	0	
+6	其他	等待	等待事件（Min)	1		0	
+7	其他	跳转事件	跳转序号	1	跳转次数（0-无限）	2	

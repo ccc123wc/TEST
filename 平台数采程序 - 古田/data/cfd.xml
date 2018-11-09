@@ -1,0 +1,20 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>16.0</Version>
+<String>
+<Name>IP</Name>
+<Val>127.0.0.1</Val>
+</String>
+<U16>
+<Name>Port</Name>
+<Val>7020</Val>
+</U16>
+<String>
+<Name>PW</Name>
+<Val>123456</Val>
+</String>
+<String>
+<Name>MN</Name>
+<Val>1233456789</Val>
+</String>
+</LVData>
