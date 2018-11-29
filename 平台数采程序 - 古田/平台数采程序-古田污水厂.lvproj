@@ -116,6 +116,8 @@
 		<Item Name="规范时间戳.vi" Type="VI" URL="../VIs/规范时间戳.vi"/>
 		<Item Name="读取数据处理 (子VI).vi" Type="VI" URL="../读取数据处理 (子VI).vi"/>
 		<Item Name="数组时间戳格式化(子VI).vi" Type="VI" URL="../VIs/数组时间戳格式化(子VI).vi"/>
+		<Item Name="全局 数据发送重叠.vi" Type="VI" URL="../全局 数据发送重叠.vi"/>
+		<Item Name="发送数据记录到文档(子VI).vi" Type="VI" URL="../发送数据记录到文档(子VI).vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -359,7 +361,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/平台数据发送系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4C9243C6-0260-471A-8EBF-FE076EB7B2F3}</Property>
-				<Property Name="Bld_version.build" Type="Int">63</Property>
+				<Property Name="Bld_version.build" Type="Int">72</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">平台数据发送系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/平台数据发送系统/平台数据发送系统.exe</Property>
@@ -371,7 +373,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/synchronize.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6352240B-3DA3-4C05-92D5-CD1B22094B5E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1344A51D-AE19-48A4-82B0-541CD39963BA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/全局变量/串口发送.vi</Property>
@@ -604,6 +606,14 @@
 				<Property Name="Source[66].itemID" Type="Ref">/我的电脑/Modbus Master</Property>
 				<Property Name="Source[66].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[66].type" Type="Str">Container</Property>
+				<Property Name="Source[67].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[67].itemID" Type="Ref">/我的电脑/全局 数据发送重叠.vi</Property>
+				<Property Name="Source[67].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[67].type" Type="Str">VI</Property>
+				<Property Name="Source[68].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[68].itemID" Type="Ref">/我的电脑/发送数据记录到文档(子VI).vi</Property>
+				<Property Name="Source[68].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[68].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/我的电脑/污染物CP编码.vi</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
@@ -616,7 +626,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/字符转十六进制字符串.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">67</Property>
+				<Property Name="SourceCount" Type="Int">69</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">平台数据发送系统</Property>
 				<Property Name="TgtF_internalName" Type="Str">平台数据发送系统</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2018 </Property>
