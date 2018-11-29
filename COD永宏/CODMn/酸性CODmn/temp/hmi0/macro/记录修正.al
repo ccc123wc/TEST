@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MacroRegAddressLib><MacroRegAddress Name="zero" OperationMode="2" DataType="bit" ArrayNumber="1"><Address Function="zero" UseIndexAddr="0" ImportTag="No"><RegAddr MasterValue="1" SlaveValue="0" MasterValueType="0" WordCount="1"><HMIID UsagePort="1">0</HMIID><PLCID>0</PLCID><AddressType SystemID="0">CIO_bit</AddressType><AddressValue Type="Bit" Length="1" CodeType="0">0.01</AddressValue><Priority>普通</Priority></RegAddr></Address></MacroRegAddress></MacroRegAddressLib>

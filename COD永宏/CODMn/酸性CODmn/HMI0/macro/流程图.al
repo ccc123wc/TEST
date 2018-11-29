@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MacroRegAddressLib><MacroRegAddress Name="LCT" OperationMode="2" DataType="signed short" ArrayNumber="1"><Address Function="LCT" UseIndexAddr="0" ImportTag="No"><RegAddr MasterValue="32741" SlaveValue="0" MasterValueType="2" WordCount="1"><HMIID UsagePort="1">0</HMIID><PLCID>0</PLCID><AddressType SystemID="16">D_word</AddressType><AddressValue Type="Word" Length="1" CodeType="0">32741</AddressValue><Priority>普通</Priority></RegAddr></Address></MacroRegAddress></MacroRegAddressLib>
