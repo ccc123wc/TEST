@@ -101,6 +101,7 @@
 			<Item Name="选择操作日志还是报警信息 (子VI).vi" Type="VI" URL="../选择操作日志还是报警信息 (子VI).vi"/>
 			<Item Name="提取日志报警参数入列队 (子VI).vi" Type="VI" URL="../提取日志报警参数入列队 (子VI).vi"/>
 			<Item Name="主动发送实时数据直接插入簇 (子VI).vi" Type="VI" URL="../主动发送实时数据直接插入簇 (子VI).vi"/>
+			<Item Name="实时数据查询用2小时间的数据.vi" Type="VI" URL="../实时数据查询用2小时间的数据.vi"/>
 		</Item>
 		<Item Name="CRC16.vi" Type="VI" URL="../VIs/CRC16.vi"/>
 		<Item Name="命令记录.vi" Type="VI" URL="../VIs/命令记录.vi"/>
@@ -177,6 +178,7 @@
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="NotifyIcon.lvlib" Type="Library" URL="/&lt;vilib&gt;/Averna/Notify Icon/NotifyIcon.llb/NotifyIcon.lvlib"/>
 				<Item Name="Notify Icon Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Averna/Notify Icon/Notify Icon Menu.rtm"/>
+				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Remove Duplicates from 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (LVObject)__ogtk.vi"/>
@@ -361,7 +363,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/平台数据发送系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4C9243C6-0260-471A-8EBF-FE076EB7B2F3}</Property>
-				<Property Name="Bld_version.build" Type="Int">72</Property>
+				<Property Name="Bld_version.build" Type="Int">77</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">平台数据发送系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/平台数据发送系统/平台数据发送系统.exe</Property>
