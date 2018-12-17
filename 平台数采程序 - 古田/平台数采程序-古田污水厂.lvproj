@@ -101,7 +101,12 @@
 			<Item Name="选择操作日志还是报警信息 (子VI).vi" Type="VI" URL="../选择操作日志还是报警信息 (子VI).vi"/>
 			<Item Name="提取日志报警参数入列队 (子VI).vi" Type="VI" URL="../提取日志报警参数入列队 (子VI).vi"/>
 			<Item Name="主动发送实时数据直接插入簇 (子VI).vi" Type="VI" URL="../主动发送实时数据直接插入簇 (子VI).vi"/>
+			<Item Name="全局 数据发送重叠.vi" Type="VI" URL="../全局 数据发送重叠.vi"/>
 			<Item Name="实时数据查询用2小时间的数据.vi" Type="VI" URL="../实时数据查询用2小时间的数据.vi"/>
+			<Item Name="获取小时数据(子VI).vi" Type="VI" URL="../获取小时数据(子VI).vi"/>
+			<Item Name="当前时间格式显示 (子VI).vi" Type="VI" URL="../当前时间格式显示 (子VI).vi"/>
+			<Item Name="数组时间戳格式化(子VI).vi" Type="VI" URL="../VIs/数组时间戳格式化(子VI).vi"/>
+			<Item Name="发送数据记录到文档(子VI).vi" Type="VI" URL="../发送数据记录到文档(子VI).vi"/>
 		</Item>
 		<Item Name="CRC16.vi" Type="VI" URL="../VIs/CRC16.vi"/>
 		<Item Name="命令记录.vi" Type="VI" URL="../VIs/命令记录.vi"/>
@@ -116,9 +121,7 @@
 		<Item Name="SQL查询.vi" Type="VI" URL="../VIs/SQL/SQL查询.vi"/>
 		<Item Name="规范时间戳.vi" Type="VI" URL="../VIs/规范时间戳.vi"/>
 		<Item Name="读取数据处理 (子VI).vi" Type="VI" URL="../读取数据处理 (子VI).vi"/>
-		<Item Name="数组时间戳格式化(子VI).vi" Type="VI" URL="../VIs/数组时间戳格式化(子VI).vi"/>
-		<Item Name="全局 数据发送重叠.vi" Type="VI" URL="../全局 数据发送重叠.vi"/>
-		<Item Name="发送数据记录到文档(子VI).vi" Type="VI" URL="../发送数据记录到文档(子VI).vi"/>
+		<Item Name="短日期时间转长日期格式.vi" Type="VI" URL="../VIs/短日期时间转长日期格式.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -177,8 +180,8 @@
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="NotifyIcon.lvlib" Type="Library" URL="/&lt;vilib&gt;/Averna/Notify Icon/NotifyIcon.llb/NotifyIcon.lvlib"/>
-				<Item Name="Notify Icon Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Averna/Notify Icon/Notify Icon Menu.rtm"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
+				<Item Name="Notify Icon Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Averna/Notify Icon/Notify Icon Menu.rtm"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Remove Duplicates from 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (LVObject)__ogtk.vi"/>
@@ -363,7 +366,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/平台数据发送系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4C9243C6-0260-471A-8EBF-FE076EB7B2F3}</Property>
-				<Property Name="Bld_version.build" Type="Int">77</Property>
+				<Property Name="Bld_version.build" Type="Int">86</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">平台数据发送系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/平台数据发送系统/平台数据发送系统.exe</Property>
@@ -375,7 +378,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/data/synchronize.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1344A51D-AE19-48A4-82B0-541CD39963BA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{355104AC-CFE1-475B-9878-74593BF6EA7B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/全局变量/串口发送.vi</Property>
@@ -482,7 +485,7 @@
 				<Property Name="Source[34].itemID" Type="Ref">/我的电脑/全局变量/全局 时间2.vi</Property>
 				<Property Name="Source[34].type" Type="Str">VI</Property>
 				<Property Name="Source[35].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[35].itemID" Type="Ref">/我的电脑/数组时间戳格式化(子VI).vi</Property>
+				<Property Name="Source[35].itemID" Type="Ref">/我的电脑/最新子程序/数组时间戳格式化(子VI).vi</Property>
 				<Property Name="Source[35].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[35].type" Type="Str">VI</Property>
 				<Property Name="Source[36].destinationIndex" Type="Int">0</Property>
@@ -609,11 +612,11 @@
 				<Property Name="Source[66].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[66].type" Type="Str">Container</Property>
 				<Property Name="Source[67].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[67].itemID" Type="Ref">/我的电脑/全局 数据发送重叠.vi</Property>
+				<Property Name="Source[67].itemID" Type="Ref">/我的电脑/最新子程序/全局 数据发送重叠.vi</Property>
 				<Property Name="Source[67].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[67].type" Type="Str">VI</Property>
 				<Property Name="Source[68].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[68].itemID" Type="Ref">/我的电脑/发送数据记录到文档(子VI).vi</Property>
+				<Property Name="Source[68].itemID" Type="Ref">/我的电脑/最新子程序/发送数据记录到文档(子VI).vi</Property>
 				<Property Name="Source[68].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[68].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
