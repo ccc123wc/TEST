@@ -107,6 +107,7 @@
 			<Item Name="当前时间格式显示 (子VI).vi" Type="VI" URL="../当前时间格式显示 (子VI).vi"/>
 			<Item Name="数组时间戳格式化(子VI).vi" Type="VI" URL="../VIs/数组时间戳格式化(子VI).vi"/>
 			<Item Name="发送数据记录到文档(子VI).vi" Type="VI" URL="../发送数据记录到文档(子VI).vi"/>
+			<Item Name="短日期时间转长日期格式.vi" Type="VI" URL="../VIs/短日期时间转长日期格式.vi"/>
 		</Item>
 		<Item Name="CRC16.vi" Type="VI" URL="../VIs/CRC16.vi"/>
 		<Item Name="命令记录.vi" Type="VI" URL="../VIs/命令记录.vi"/>
@@ -121,7 +122,7 @@
 		<Item Name="SQL查询.vi" Type="VI" URL="../VIs/SQL/SQL查询.vi"/>
 		<Item Name="规范时间戳.vi" Type="VI" URL="../VIs/规范时间戳.vi"/>
 		<Item Name="读取数据处理 (子VI).vi" Type="VI" URL="../读取数据处理 (子VI).vi"/>
-		<Item Name="短日期时间转长日期格式.vi" Type="VI" URL="../VIs/短日期时间转长日期格式.vi"/>
+		<Item Name="从数据库获取实时数据(子VI).vi" Type="VI" URL="../从数据库获取实时数据(子VI).vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -366,7 +367,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Project/builds/平台数据发送系统</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4C9243C6-0260-471A-8EBF-FE076EB7B2F3}</Property>
-				<Property Name="Bld_version.build" Type="Int">87</Property>
+				<Property Name="Bld_version.build" Type="Int">89</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">平台数据发送系统.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Project/builds/平台数据发送系统/平台数据发送系统.exe</Property>
